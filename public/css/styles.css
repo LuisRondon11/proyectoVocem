@@ -10,35 +10,39 @@ table {
     border-right: 1px solid;
     padding-bottom: -5px;
 }
-
 .borderButton {
     border-bottom: 2px solid;
     border-left: 1px solid;
     border-right: 1px solid;
     padding-top: -5px;
 }
-
 .borderSupLeft {
     border-right: 1px solid;
     border-top: 1px solid;
     border-bottom: 1px solid;
 }
-
 .borderSupRight {
     border-left: 1px solid;
     border-top: 1px solid;
     border-bottom: 1px solid;
 }
-
 .aisle {
     height: 20px;
 }
-
 .position {
     width: 50px;
 }
-
 .column {
+    background-color: black;
+}
+.call {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.columnAisle {
+    width: 30px;
+    height: 30px;
     background-color: black;
 }
 /*.borders{
