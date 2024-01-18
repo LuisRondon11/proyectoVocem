@@ -1,8 +1,21 @@
 *{
     background-color:aqua;
+    text-align: center;
+}
+.callMochimaLeft {
+    border-width: 3px 0px 3px 3px;
+    border-style: double;
+}
+.callMochimaRight {
+    border-width: 3px 3px 3px 0px;
+    border-style: double;
 }
 table {
     border-collapse: collapse;
+}
+.client {
+    height: 30px;
+    border: 1px solid;
 }
 .borderTop {
     border-top: 2px solid;
@@ -10,7 +23,7 @@ table {
     border-right: 1px solid;
     padding-bottom: -5px;
 }
-.borderButton {
+.borderBotton {
     border-bottom: 2px solid;
     border-left: 1px solid;
     border-right: 1px solid;
@@ -44,7 +57,9 @@ table {
     width: 30px;
     height: 30px;
     background-color: black;
+    margin: 0 20px 0 20px;
 }
+
 /*.borders{
     border: 1px solid black;
 }*/
