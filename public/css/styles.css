@@ -1,6 +1,11 @@
 *{
-    background-color:aqua;
+    background-color: aqua;
     text-align: center;
+}
+.call {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .callMochimaLeft {
     border-width: 3px 0px 3px 3px;
@@ -13,7 +18,7 @@
 table {
     border-collapse: collapse;
 }
-.client {
+.fishbowl {
     height: 30px;
     border: 1px solid;
 }
@@ -23,7 +28,7 @@ table {
     border-right: 1px solid;
     padding-bottom: -5px;
 }
-.borderBotton {
+.borderBottom {
     border-bottom: 2px solid;
     border-left: 1px solid;
     border-right: 1px solid;
@@ -39,8 +44,9 @@ table {
     border-top: 1px solid;
     border-bottom: 1px solid;
 }
-.aisle {
+.horizontalHallway {
     height: 20px;
+    background-color: blue;
 }
 .position {
     width: 50px;
@@ -48,19 +54,33 @@ table {
 .column {
     background-color: black;
 }
-.call {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 .columnAisle {
     width: 30px;
     height: 30px;
     background-color: black;
     margin: 0 20px 0 20px;
 }
-
-/*.borders{
-    border: 1px solid black;
-}*/
-
+.borderLeft {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 2px solid;
+}
+.borderRight {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 2px solid;
+}
+.borderSupTop {
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.borderSupBottom {
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.verticalHallway {
+    background-color: blue;
+    width: 20px;
+}

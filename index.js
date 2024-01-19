@@ -7,7 +7,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
     //obtengo la pagina a mostrar
-    const filePath = path.join(__dirname, 'public', 'callMochima.html');
+    const filePath = path.join(__dirname, 'public', 'index.html');
     fs.readFile(filePath, 'utf8', (err, content) => {
       if (err) {
         //error si no funciona el servidor
