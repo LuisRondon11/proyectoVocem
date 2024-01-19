@@ -84,3 +84,15 @@ table {
     background-color: blue;
     width: 20px;
 }
+.borderTopE {
+    border-top: 1px double;
+}
+.borderBottomE {
+    border-bottom: 1px double;
+}
+.borderLeftE {
+    border-left: 1px double;
+}
+.borderRightE {
+    border-right: 1px double;
+}
