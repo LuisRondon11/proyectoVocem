@@ -66,9 +66,14 @@ a:hover {
     width: 25%;
     height: 40%;
     border-radius: 20px;
+    box-shadow:  2px 2px 6px 2px var(--cyan);
 }
 .loginBox h2 {
     color: var(--white);
+}
+.loginBox hr {
+    margin-top: -20px;
+   border-color : var(--cyan);
 }
 .loginBox input {
     all: unset;
@@ -81,6 +86,7 @@ a:hover {
 }
 .loginBox input:focus {
     border:1px solid var(--pastelGreen);
+    box-shadow:  1px 1px 2px 1px var(--cyan);
 }
 .loginBox input:focus::placeholder{
     background-color: var(--gray);
