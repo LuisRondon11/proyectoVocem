@@ -1,10 +1,24 @@
 :root {
-
+    /* colores primarios*/
+    --indigo: #0b4f6c;
+    --pastelGreen: #20bf55;
+    --cyan: #01baef; 
+    /*colores texto*/
+    --white: #f4f9e9;
+    --gray: #757575;
+    --black: #1d1b1b;
 }
 *{
     text-align: center;
+    color: var(--gray);
 }
-section
+body{
+    background-color: var(--white);
+}
+.logo {
+    width: 150px;
+    height: 60px;
+}
 nav {
     display: flex;
     justify-content: center;
@@ -16,7 +30,7 @@ nav {
     right: 0;
     width: 100%;
     height: 50px;
-    background-color: #151719;
+    background-color: var(--indigo);
 }
 ul {
     display: flex;
@@ -26,12 +40,60 @@ ul {
 a {
     text-decoration: none;
     margin: 0 5px;
-    background-color: white;
+    background-color: var(--cyan);
     border-radius: 5px;
     padding: 5px;
+    color: var(--white);
 }
 a:hover {
     background-color: cadetblue;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 90%;
+}
+.loginBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--indigo);
+    opacity: 0.9;
+    width: 25%;
+    height: 40%;
+    border-radius: 20px;
+}
+.loginBox h2 {
+    color: var(--white);
+}
+.loginBox input {
+    all: unset;
+    margin: 15px 0px;
+    background-color: var(--white);
+    border-radius: 5px;
+}
+.loginBox input::placeholder {
+    color: var(--indigo);
+}
+.loginBox input:focus {
+    border:1px solid var(--pastelGreen);
+}
+.loginBox input:focus::placeholder{
+    background-color: var(--gray);
+    color: var(--white); 
+}
+.loginBox input[type=button] {
+    background-color: var(--pastelGreen);
+    height: 30px;
+    width: 125px;
+    color: var(--indigo);
+}
+.loginBox input[type=button]:hover {
+    background-color: var(--cyan);
 }
 .call {
     display: flex;
@@ -83,12 +145,12 @@ table {
     height: 20px;
 }
 .column {
-    background-color: black;
+    background-color: var(--black);
 }
 .columnAisle {
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color: var(--black);
     margin: 0 20px 0 20px;
 }
 .borderLeft {
