@@ -77,10 +77,10 @@ table {
 }
 .horizontalHallway {
     height: 20px;
-    background-color: blue;
 }
 .position {
     width: 50px;
+    height: 20px;
 }
 .column {
     background-color: black;
@@ -112,7 +112,6 @@ table {
     border-right: 1px solid;
 }
 .verticalHallway {
-    background-color: blue;
     width: 20px;
 }
 .borderTopE {
